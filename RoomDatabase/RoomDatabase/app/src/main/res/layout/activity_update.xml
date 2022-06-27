@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/edt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="address"
+        android:textColor="@android:color/black" />
+    <Button
+        android:id="@+id/btn_update_user"
+        android:text="Update User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

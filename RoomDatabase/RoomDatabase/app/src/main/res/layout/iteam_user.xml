@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/btnupdate"
+        android:layout_toLeftOf="@id/btnupdate"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nguyen anh ky"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="thanh son phut tho"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@id/btndelete"
+        android:text="UPDATE"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/btndelete" />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="DELETE"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>

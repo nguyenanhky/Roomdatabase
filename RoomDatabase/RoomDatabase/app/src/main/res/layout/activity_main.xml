@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/edt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="address"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btn_adduser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add User" />
+
+    <TextView
+        android:id="@+id/txtdeleteall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="DelelteAll"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edttimkiem"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="tim kiem theo ten" />
+
+        <Button
+            android:id="@+id/btntimkiem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="timkiem" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
