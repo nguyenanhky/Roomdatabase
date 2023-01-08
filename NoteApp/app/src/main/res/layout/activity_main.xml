@@ -16,15 +16,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_open_add_activity"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:fabCustomSize="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginRight="15dp"
         android:layout_marginEnd="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="15dp"
         android:layout_marginBottom="20dp"
         android:src="@drawable/ic_baseline_add_24"
-        android:id="@+id/btn_open_add_activity"/>
+        app:fabCustomSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
